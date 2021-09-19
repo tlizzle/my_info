@@ -1,0 +1,339 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/tony/Desktop/DS/bio
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 274
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 453
+    content: "\e[?1034htony:bio tony$ "
+  - delay: 1363
+    content: p
+  - delay: 249
+    content: 'y'
+  - delay: 183
+    content: t
+  - delay: 112
+    content: h
+  - delay: 136
+    content: o
+  - delay: 162
+    content: 'n'
+  - delay: 603
+    content: ' '
+  - delay: 259
+    content: '-'
+  - delay: 155
+    content: c
+  - delay: 200
+    content: ' '
+  - delay: 308
+    content: '"'
+  - delay: 2508
+    content: i
+  - delay: 160
+    content: m
+  - delay: 250
+    content: p
+  - delay: 113
+    content: o
+  - delay: 235
+    content: r
+  - delay: 572
+    content: t
+  - delay: 327
+    content: ' '
+  - delay: 296
+    content: b
+  - delay: 223
+    content: i
+  - delay: 397
+    content: o
+  - delay: 1102
+    content: ;
+  - delay: 131
+    content: ' '
+  - delay: 221
+    content: b
+  - delay: 150
+    content: i
+  - delay: 354
+    content: o
+  - delay: 1885
+    content: .
+  - delay: 365
+    content: h
+  - delay: 152
+    content: e
+  - delay: 248
+    content: l
+  - delay: 136
+    content: l
+  - delay: 190
+    content: o
+  - delay: 365
+    content: (
+  - delay: 223
+    content: )
+  - delay: 1069
+    content: '"'
+  - delay: 1021
+    content: "\r\n"
+  - delay: 36
+    content: "Hi :), This is Chun En Lin !\r\ntony:bio tony$ "
+  - delay: 2543
+    content: p
+  - delay: 401
+    content: 'y'
+  - delay: 180
+    content: t
+  - delay: 79
+    content: h
+  - delay: 168
+    content: o
+  - delay: 395
+    content: 'n'
+  - delay: 438
+    content: ' '
+  - delay: 278
+    content: '-'
+  - delay: 308
+    content: c
+  - delay: 353
+    content: ' '
+  - delay: 666
+    content: '"'
+  - delay: 710
+    content: i
+  - delay: 180
+    content: m
+  - delay: 243
+    content: p
+  - delay: 154
+    content: o
+  - delay: 147
+    content: r
+  - delay: 620
+    content: t
+  - delay: 295
+    content: ' '
+  - delay: 355
+    content: b
+  - delay: 158
+    content: i
+  - delay: 193
+    content: o
+  - delay: 958
+    content: ;
+  - delay: 194
+    content: ' '
+  - delay: 412
+    content: b
+  - delay: 461
+    content: i
+  - delay: 1084
+    content: o
+  - delay: 1219
+    content: .
+  - delay: 290
+    content: i
+  - delay: 166
+    content: 'n'
+  - delay: 246
+    content: f
+  - delay: 180
+    content: o
+  - delay: 377
+    content: (
+  - delay: 187
+    content: )
+  - delay: 766
+    content: '"'
+  - delay: 1821
+    content: "\r\n"
+  - delay: 41
+    content: "I'm currently working as a Mackine Learning engineer.\r\n\r\nim specialized and interested with ML/DP, data analyst.\r\n\r\nMoreover, dedicated to become full-stack Data scientist!\r\ntony:bio tony$ "
+  - delay: 4125
+    content: p
+  - delay: 358
+    content: 'y'
+  - delay: 680
+    content: t
+  - delay: 204
+    content: h
+  - delay: 226
+    content: o
+  - delay: 469
+    content: 'n'
+  - delay: 623
+    content: ' '
+  - delay: 980
+    content: '-'
+  - delay: 222
+    content: c
+  - delay: 449
+    content: ' '
+  - delay: 775
+    content: '"'
+  - delay: 759
+    content: i
+  - delay: 188
+    content: m
+  - delay: 321
+    content: p
+  - delay: 164
+    content: o
+  - delay: 204
+    content: r
+  - delay: 436
+    content: t
+  - delay: 277
+    content: ' '
+  - delay: 259
+    content: b
+  - delay: 220
+    content: i
+  - delay: 199
+    content: o
+  - delay: 1352
+    content: ;
+  - delay: 157
+    content: ' '
+  - delay: 299
+    content: b
+  - delay: 291
+    content: i
+  - delay: 889
+    content: o
+  - delay: 919
+    content: .
+  - delay: 351
+    content: s
+  - delay: 143
+    content: k
+  - delay: 202
+    content: i
+  - delay: 290
+    content: l
+  - delay: 149
+    content: l
+  - delay: 949
+    content: s
+  - delay: 780
+    content: (
+  - delay: 199
+    content: )
+  - delay: 1254
+    content: '"'
+  - delay: 1086
+    content: "\r\n"
+  - delay: 42
+    content: "My relevant skills are EDA, modelling and data visulization.\r\n\r\nBuild all sort of ETL and serving pipeline for end to end service.\r\n\r\nUtilizing usefull tools to process big data such as pyspark!\r\ntony:bio tony$ "
+  - delay: 5741
+    content: "logout\r\n"
